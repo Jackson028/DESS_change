@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+Codebase/log/
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+checkpoint/
+
+# HuggingFace / Transformers
+huggingface/
+transformers_cache/
+
+# Local pretrained models
+Codebase/bert-base-uncased/
+Codebase/deberta-v3-base/
+
+# Saved models
+Codebase/savemodels/
+
+# Experiment outputs
+outputs/
+output/
+runs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
